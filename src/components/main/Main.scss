@@ -1,0 +1,60 @@
+.main {
+    width: 100%;
+    background: url(../assets/img/bg1.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+    padding-bottom: 220px;
+    .title {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 44px;
+        font-weight: 600;
+    }
+    .description {
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .items {
+        margin-top: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0 100px 0 140px;
+        .item {
+            position: relative;
+            width: 30%;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 24px;
+            b {
+                color: rgb(219, 183, 134);
+            }
+            &::before {
+                content: '';
+                height: 20px;
+                width: 20px;
+                background: url(../assets/img/success.svg) no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: absolute;
+                left: -25px;
+            }
+            &:last-child {
+                width: 25%;
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            span {
+                color: rgb(255, 255, 255);
+                box-shadow: none;
+                text-decoration: none;
+                &:first-child {
+                    font-size: 40px;
+                    font-weight: 600;
+                    border-bottom: 2px solid #dbb786;
+                    padding: 0 10px;
+                }
+                &:last-child {
+                    font-weight: 500;
+                }
+            }
+        }
+        .nav {
+            display: flex;
+            li {
+                list-style: none;
+                color: #fff;
+                font-size: 15px;
+                font-weight: 500;
+                margin-right: 25px;
+                cursor: pointer;
+            }
+        }
+        .phone {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .number {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                span {
+                    &:first-child {
+                        position: relative;
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #fff;
+                        &::after {
+                            position: absolute;
+                            top: 0;
+                            left: -25px;
+                            content: '';
+                            width: 20px;
+                            height: 20px;
+                            background: url(../assets/img/phone.svg) no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                        }
+                    }
+                    &:last-child {
+                        color: #dbb786;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .btn {
+                color: #ffffff;
+                border: 1px solid #dbb786;
+                border-radius: 25px;
+                padding: 15px 35px;
+                margin-left: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}
