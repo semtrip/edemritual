@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+    .services {
+        .items {
+            .item {
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .services {
+        .items {
+            justify-content: center;
+        }
+    }
+}

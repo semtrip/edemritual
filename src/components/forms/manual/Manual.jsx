@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Manual.scss'
+import './adaptive.scss'
 function Manual() {
     const [show, setShow] = useState(false);
     useEffect(() => {
@@ -37,7 +38,7 @@ function Manual() {
                             <div className="right">
                                 <div className="item">
                                     <span className="title">Вызвать ритуального агента "ЭДЕМ"</span>
-                                    <a href='/' className="phone">+7(939) 744-20-22</a>
+                                    <a href='tel:+79397442022' className="phone">+7(939) 744-20-22</a>
                                     <p className="description">Специалисты «Похоронного салона ЭДЕМ» ответят на Ваши вопросы и помогут в оформлении ритуальных услуг.</p>
                                 </div>
                             </div>

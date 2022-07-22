@@ -1,4 +1,5 @@
 import './Header.scss'
+import './adaptive.scss'
 function Header() {
     return (
         <div className="header">
@@ -15,11 +16,11 @@ function Header() {
                         <li>Контакты</li>
                     </ul>
                     <div className="phone">
-                        <a href='/' className="number">
+                        <a href='tel:+79397442022' className="number">
                             <span>+7(939) 744-20-22</span>
                             <span>Круглосуточно</span>
                         </a>
-                        <div className="btn">Перезвоните мне</div>
+                        <a href='#callback' className="btn">Перезвоните мне</a>
                     </div>
                 </div>
             </div> 

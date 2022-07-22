@@ -1,0 +1,25 @@
+@media (max-width: 700px) {
+    .form_container {
+        .form {
+            width: 100%;
+            .content {
+                .input {
+                    flex-direction: column;
+                    align-items: center;
+                    .btn {
+                        margin: 0;
+                        margin-top: 10px;
+                        text-align: center;
+                    }
+                }
+                .phone {
+                    flex-direction: column;
+                    span {
+                        margin: 0;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

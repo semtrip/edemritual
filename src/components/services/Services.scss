@@ -60,6 +60,7 @@
                 }
             }
             .btn {
+                text-decoration: none;
                 height: 45px;
                 font-size: 14px;
                 padding-left: 30px;
@@ -73,6 +74,10 @@
                 align-items: center;
                 justify-content: center;
                 font-weight: 600;
+                &:visited {
+                    color: #ffffff;
+                    text-decoration: none;
+                }
             }
         }
     }

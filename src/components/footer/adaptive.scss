@@ -1,0 +1,15 @@
+@media (max-width: 1000px) {
+    .footer {
+        flex-direction: column !important;
+        height: 100% !important;
+        #map {
+            width: 100% !important;
+            height: 500px !important;
+        }
+        .contact {
+            width: 100% !important;
+            align-items: center !important;
+            padding: 30px !important;
+        }
+    }
+}

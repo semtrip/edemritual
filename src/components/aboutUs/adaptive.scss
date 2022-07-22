@@ -1,0 +1,31 @@
+@media (max-width: 660px) {
+    .about {
+        .title-a {
+            display: flex;
+        }
+        .content {
+            .text {
+                flex-direction: column;
+                p {
+                    width: 100%;
+                    &:first-child {
+                        width: 100%;
+                    }
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    .about {
+        .content {
+            .items {
+                justify-content: center;
+            }
+        }
+    }
+}

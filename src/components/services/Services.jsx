@@ -1,9 +1,10 @@
 import './Services.scss'
+import './adaptive.scss'
 function Services() {
     return (
         <div className="container">
             <div className="services">
-                <span className="title-a">Наши услуги</span>
+                <h2 className="title-a">Наши услуги</h2>
                 <p className="description-a">Похороны близких - это очень тяжелый период в жизни. Мы готовы предложить помощь в организации похорон и прощания с усопшим. Каталог услуг разнообразен по цене от простых моделей до индивидульных. У нас вы найдете все необходимое</p>
                 <div className="items">
                     <div className="item">
@@ -18,7 +19,7 @@ function Services() {
                             -Организация гражданской панихиды, а также обряда панихиды
                             </p>
                         </div>
-                        <div className="btn">Узнать стоимость</div>
+                        <a href='#callback' className="btn">Узнать стоимость</a>
                     </div>
                     <div className="item">
                         <div className="info">
@@ -32,7 +33,7 @@ function Services() {
                             -Опускание гроба
                             </p>
                         </div>
-                        <div className="btn">Узнать стоимость</div>
+                        <a href='#callback' className="btn">Узнать стоимость</a>
                     </div>
                     <div className="item">
                         <div className="info">
@@ -48,7 +49,7 @@ function Services() {
                             -Услуги визажиста
                             </p>
                         </div>
-                        <div className="btn">Узнать стоимость</div>
+                        <a href='#callback' className="btn">Узнать стоимость</a>
                     </div>
                     <div className="item">
                         <div className="info">
@@ -63,7 +64,7 @@ function Services() {
                             -Круглосуточно
                             </p>
                         </div>
-                        <div className="btn">Узнать стоимость</div>
+                        <a href='#callback' className="btn">Узнать стоимость</a>
                     </div>
                     <div className="item">
                         <div className="info">
@@ -77,7 +78,7 @@ function Services() {
                             -Перевозка родственников с кладбища
                             </p>
                         </div>
-                        <div className="btn">Узнать стоимость</div>
+                        <a href='#callback' className="btn">Узнать стоимость</a>
                     </div>
                     <div className="item">
                         <div className="info">
@@ -91,7 +92,7 @@ function Services() {
                             -Знают, как правильно вынести гроб и опустить в могилу
                             </p>
                         </div>
-                        <div className="btn">Узнать стоимость</div>
+                        <a href='#callback' className="btn">Узнать стоимость</a>
                     </div>
                     <div className="item">
                         <div className="info">
@@ -105,7 +106,7 @@ function Services() {
                             Сами изготавливаем гранитные и мраморные памятники, гробы и другие ритуальные товары.
                             </p>
                         </div>
-                        <div className="btn">Узнать стоимость</div>
+                        <a href='#callback' className="btn">Узнать стоимость</a>
                     </div>
                 </div>
             </div>

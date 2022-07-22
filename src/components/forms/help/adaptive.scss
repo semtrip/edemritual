@@ -1,0 +1,47 @@
+@media (max-width: 1070px) {
+    .help {
+        .content {
+            padding: 0 10px;
+            .title {
+                text-align: center;
+            }
+            .title_two {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .help {
+        .content {
+            .title {
+                font-size: 24px;
+            }
+            .description {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .help {
+        .content {
+            .btn {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 240px) {
+    .help {
+        .content {
+            .btn {
+                padding: 5px 10px;
+            }
+        }
+    }
+}

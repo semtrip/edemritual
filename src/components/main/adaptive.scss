@@ -1,0 +1,32 @@
+@media (max-width: 956px) {
+    .main {
+        .items {
+            flex-direction: column;
+            width: 500px;
+            align-items: center;
+            padding: 0;
+            margin: 20px auto 0;
+            .item {
+                width: 100%;
+                &:last-child {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        .title {
+            font-size: 32px;
+        }
+        .description {
+            font-size: 18px;
+        }
+        .items {
+            width: 100%;
+            padding-left: 30px;
+        }
+    }
+}

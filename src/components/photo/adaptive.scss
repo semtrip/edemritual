@@ -1,0 +1,30 @@
+@media (max-width: 1000px) {
+    .photo {
+        .padding-block {
+            flex-direction: column;
+            .photo-50 {
+                width: 100%;
+            }
+            .photo-left {
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
+        .full-block {
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .photo {
+        .modal {
+            img {
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+}

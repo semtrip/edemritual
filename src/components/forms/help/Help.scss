@@ -1,0 +1,61 @@
+.help {
+    width: 100%;
+    background: url(../../assets/img/bg3.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        padding: 0 130px;
+        .title {
+            color: #fcf9f9;
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .title_two {
+            margin-top: -10px;
+            color: #dbb787;
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .description {
+            color: #fcf9f9;
+            font-size: 23px;
+            font-weight: 400;
+            text-align: center;
+            margin: 0;
+        }
+        .btn {
+            padding: 30px 40px;
+            height: 45px;
+            background: rgb(219, 183, 134);
+            font-size: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #4d4d4d;
+            cursor: pointer;
+            box-shadow: 0px 5px rgb(184, 158, 122);
+            margin: 40px 0;
+            text-decoration: none;
+            &:visited {
+                color: #4d4d4d;
+                text-decoration: none;
+            }
+        }
+        .btn-label {
+            color: #fcf9f9;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}
