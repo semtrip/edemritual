@@ -31,7 +31,7 @@ function FormMain() {
             xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
             xhttp.send(`phone=${phone}`);
             xhttp.onload = function() {
-                if (xhttp.status != 200) {
+                if (xhttp.status !== 200) {
                   alert(`Ошибка ${xhttp.status}: ${xhttp.statusText}`);
                 } else {
                     if(xhttp.response === 'success') {

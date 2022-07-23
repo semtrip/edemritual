@@ -18,7 +18,7 @@ function Reviews() {
     return (
         <div className="reviews">
             <div className="container">
-                <h2 className="title-a">Посмотрите отзывы о нашей работе</h2>
+                <h2 className="title-a" id='reviews'>Посмотрите отзывы о нашей работе</h2>
                 <div className="items">
                     <div className="item">
                         <img src="img/reviews/1.jpg" alt="" onClick={()=>{openModal('img/reviews/1.jpg')}}/>

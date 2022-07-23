@@ -10,10 +10,10 @@ function Header() {
                         <span>Салон ритуальных услуг</span>
                     </div>
                     <ul className="nav">
-                        <li>Услуги</li>
-                        <li>О нас</li>
-                        <li>Озывы</li>
-                        <li>Контакты</li>
+                        <li><a href="#service">Услуги</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#reviews">Озывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
                     </ul>
                     <div className="phone">
                         <a href='tel:+79397442022' className="number">

@@ -4,7 +4,7 @@ function Footer() {
     const date = new Date()
     return (
         <>
-            <div className="footer">
+            <div className="footer" id='contact'>
                 <div id="map">
                 <iframe title='map' src="https://yandex.ru/map-widget/v1/?um=constructor%3A84e8436074464c5105d20945d9e594d49ff6b27d0266b9b0c5ba34efdb4d3333&amp;source=constructor" width="100%" height="100%" frameBorder="0"></iframe>
                 </div>

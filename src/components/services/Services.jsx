@@ -4,7 +4,7 @@ function Services() {
     return (
         <div className="container">
             <div className="services">
-                <h2 className="title-a">Наши услуги</h2>
+                <h2 className="title-a" id='service'>Наши услуги</h2>
                 <p className="description-a">Похороны близких - это очень тяжелый период в жизни. Мы готовы предложить помощь в организации похорон и прощания с усопшим. Каталог услуг разнообразен по цене от простых моделей до индивидульных. У нас вы найдете все необходимое</p>
                 <div className="items">
                     <div className="item">
